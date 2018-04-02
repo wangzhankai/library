@@ -11,7 +11,6 @@ import java.util.LinkedHashMap;
  */
 
 public class LoginPresenter extends LoginContract.Presenter {
-
     /*@Override
     public void getLoginListDataRequest(String username, String password) {
         mRxManage.add(mModel.login(username,password).subscribe(new RxSubscriber<List<LoginBean>>(mContext,false) {
