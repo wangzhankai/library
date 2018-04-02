@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0.5"
+        android:background="@color/bottom_color"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tab0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/dp_2"
+            android:drawableTop="@drawable/bottom_first"
+            android:background="@null"
+            android:onClick="onTabClick"
+            android:text="@string/first"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@drawable/bottom_color"
+            />
+        <Button
+            android:id="@+id/tab1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/dp_2"
+            android:drawableTop="@drawable/bottom_first"
+            android:background="@null"
+            android:onClick="onTabClick"
+            android:text="@string/second"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@drawable/bottom_color"
+            />
+        <Button
+            android:id="@+id/tab2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/dp_2"
+            android:drawableTop="@drawable/bottom_first"
+            android:background="@null"
+            android:onClick="onTabClick"
+            android:text="@string/third"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@drawable/bottom_color"
+            />
+        <Button
+            android:id="@+id/tab3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/bottom_first"
+            android:background="@null"
+            android:onClick="onTabClick"
+            android:text="@string/forth"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@drawable/bottom_color"
+            />
+    </LinearLayout>
+
+</LinearLayout>
